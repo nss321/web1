@@ -9,13 +9,8 @@
 <body>
   <h1><a href="index.html">캔많균퍼의 덕질페이지</a></h1>
   <h2>할룽 방가룽 오늘도 즐건 하루 ㄴ^.^ㄱ~
-    <input type="button" value="night" onclick="
-    document.querySelector('body').style.backgroundColor = 'black';
-    document.querySelector('body').style.color = 'white';
-    ">
-    <input type="button" value="day" onclick="
-    document.querySelector('body').style.backgroundColor = 'white';
-    document.querySelector('body').style.color = 'black';
+    <input id="night_day" type="button" value="night" onclick="
+    nightDayHandler(this);
     ">
   </h2>
   <div id="grid">
